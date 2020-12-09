@@ -29,6 +29,7 @@ namespace ProAgil.API
         {
             services.AddDbContext<AppDataContext>(x => x.UseSqlServer(Configuration.GetConnectionString("DefaultConnection")));
             services.AddControllers();
+            services.AddCors();
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
@@ -38,7 +39,10 @@ namespace ProAgil.API
             {
                 app.UseDeveloperExceptionPage();
             }
-
+            app.UseStaticFiles();
+            
+            app.UseCors(x => x.AllowAnyOrigin().AllowAnyMethod().AllowAnyHeader());
+            
             app.UseHttpsRedirection();
 
             app.UseRouting();
@@ -49,6 +53,9 @@ namespace ProAgil.API
             {
                 endpoints.MapControllers();
             });
+
+
+           
         }
     }
 }

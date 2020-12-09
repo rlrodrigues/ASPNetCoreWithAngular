@@ -53,3 +53,4 @@ C:\Users\rrodr\Documents\ASPNetCoreWithAngular\ProAgil.API\obj\Debug\netcoreapp3
 C:\Users\rrodr\Documents\ASPNetCoreWithAngular\ProAgil.API\obj\Debug\netcoreapp3.1\ProAgil.API.dll
 C:\Users\rrodr\Documents\ASPNetCoreWithAngular\ProAgil.API\obj\Debug\netcoreapp3.1\ProAgil.API.pdb
 C:\Users\rrodr\Documents\ASPNetCoreWithAngular\ProAgil.API\obj\Debug\netcoreapp3.1\ProAgil.API.genruntimeconfig.cache
+C:\Users\rrodr\Documents\ASPNetCoreWithAngular\ProAgil.API\bin\Debug\netcoreapp3.1\package-lock.json
